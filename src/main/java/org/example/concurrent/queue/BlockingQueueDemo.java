@@ -14,7 +14,7 @@ import java.util.concurrent.*;
 public class BlockingQueueDemo {
 
     public static void main(String[] args) throws InterruptedException {
-        Executors.newCachedThreadPool()
+        Executors.newCachedThreadPool();
 //        testArrayBlockingQueue();
         testLinkedBlockingQueue();
     }
